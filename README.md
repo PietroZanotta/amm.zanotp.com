@@ -1,2 +1,2 @@
 # www.zanotp.com
-A blog about programming and statistics
+Hello everyone, this is the repository where I back up the articles I write on my own blog. You can find my blog [here](www.zanotp.com).
