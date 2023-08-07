@@ -1,4 +1,15 @@
-# An introduction to PRNGs with Python and R
+---
+title: "An introduction to PRNGs with Python and R"
+seoTitle: "An introduction to PRNGs with Python and R"
+seoDescription: "How can a computer, a perfectly deterministic machine, produce random numbers? Let's dive into random number generators with Python and R."
+datePublished: Sun Jan 29 2023 23:00:39 GMT+0000 (Coordinated Universal Time)
+cuid: cldhzjjc9003rlsnv8lpn7v7f
+slug: an-introduction-to-prngs-with-python-and-r
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/aaSTQ-wY5DQ/upload/2a831240ef9f9415c1cb90dc01525477.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1675064557839/4ed24b84-0e05-4227-ba6f-624745354fa7.jpeg
+tags: statistics, randomness, cryptography, random-numbers, prngs
+
+---
 
 > Life's most important questions are, for the most part, nothing but probability problems.
 > 
