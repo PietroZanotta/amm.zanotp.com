@@ -1,4 +1,14 @@
-# Efficiently computing eigenvalues and eigenvectors in Python
+---
+title: "Efficiently computing eigenvalues and eigenvectors in Python"
+seoTitle: "Efficiently computing eigenvalues and eigenvectors in Python"
+seoDescription: "Eigenvalues and eigenvectors are a crucial part of linear algebra. In this article we cover two algorithms for efficiently computing them in Python"
+datePublished: Mon Feb 20 2023 11:00:39 GMT+0000 (Coordinated Universal Time)
+cuid: clecpicot01zn5pnv0hqq75xi
+slug: eigen-py
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/xAPS28sng4w/upload/f9a9e9bb6648195ebc538d9c27c1779f.jpeg
+tags: python, linear-algebra, eigenvalues
+
+---
 
 Let \\(M\\) be an \\(n \times n\\) matrix. A scalar \\(\lambda \\) is an *eigenvalue* of \\(M\\) if there is a non-zero vector \\(x\\) (called *eigenvector*) s.t.:
 
