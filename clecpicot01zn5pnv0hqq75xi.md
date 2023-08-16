@@ -30,7 +30,7 @@ $$x\_3 = M x\_2$$
 
 and in general
 
-$$x\_k = M x\_{k-1}$$
+$$x\k = M x\{k-1}$$
 
 We may want to find a vector \\(x\\) s.t.
 
@@ -87,7 +87,7 @@ $$x\_1 = Mx\_0$$
 
 $$x\_2 = Mx\_1$$
 
-$$x\_k = Mx\_{k-1}$$
+$$x\k = Mx\{k-1}$$
 
 And the more steps we take (i.e. the bigger \\(k\\) is) the more accurate will be our approximation. This is expressed in the following formula
 
@@ -170,19 +170,19 @@ print(is_close(np.matmul(Matr, x_b), lambda_b * x_b))
 
 Above we defined the algorithm as follows
 
-$$x\_k = Mx\_{k-1}$$
+$$x\k = Mx\{k-1}$$
 
 We can notice that if
 
-$$x\_{k-1} = Mx\_{k-2}$$
+$$x\{k-1} = Mx\{k-2}$$
 
 then we can substitute
 
-$$x\_k = MMx\_{k-2}$$
+$$x\k = MMx\{k-2}$$
 
 By induction, we can prove that
 
-$$x\_k = M^kx\_{0}$$
+$$x\k = M^kx{0}$$
 
 We now use this formula to update the Python function above. The new function is the following:
 
@@ -320,4 +320,4 @@ And that's it for this article.
 
 Thanks for reading.
 
-For any questions or suggestions related to what I covered in this article, please add them as a comment. In case of more specific inquiries, you can contact me [**here**](http://www.zanotp.com/contact).
+For any questions or suggestions related to what I covered in this article, please add them as a comment. In case of more specific inquiries, you can contact me [**here**](http://amm.zanotp.com/contact).
