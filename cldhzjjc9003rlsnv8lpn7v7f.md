@@ -272,13 +272,13 @@ where \\(a\\), \\(b\\) and \\(c\\) are positive integers and we also need a **se
 
 Let's now consider (and then implement) a particular LCG: the **Lagged Fibonacci Generator** (LFG).
 
-$$x\_{n+1} = a\_1 x\_{n-1} + a\_2 x\_{n-j} + b \space \space mod(y)$$
+$$x\_{n+1} = a\1 x\{n-1} + a\2 x\{n-j} + b \space \space mod(y)$$
 
 We just need to provide LFG from \\(x\_1\\) to \\(x\_{max(i, j)+1}\\) and it will generate a pseudorandom sequence of numbers.
 
 Let me make an example to clear your mind. Let the following equation be our LFG:
 
-$$x\_{n+1} = x\_{n-3} + x\_{n-5} \space \space mod(10)$$
+$$x\{n+1} = x\{n-3} + x\_{n-5} \space \space mod(10)$$
 
 and let's say we want to generate a sequence of random numbers between 1 and 9 from the initial seed \[4, 2, 9, 5, 5\].
 
@@ -286,11 +286,11 @@ The sequence starts from \\(x\_6\\) (you can easily prove that the values before
 
 Thus the sequence is:
 
-$$x\_{6} = x\_{3} + x\_{1} \space \space mod(10) = 9 + 4 \space \space mod(10) = 3$$
+$$x\{6} = x\{3} + x\_{1} \space \space mod(10) = 9 + 4 \space \space mod(10) = 3$$
 
-$$x\_{7} = x\_{4} + x\_{2} \space \space mod(10) = 5 + 2 \space \space mod(10) = 7$$
+$$x\{7} = x\{4} + x\_{2} \space \space mod(10) = 5 + 2 \space \space mod(10) = 7$$
 
-$$x\_{8} = x\_{5} + x\_{3} \space \space mod(10) = 5 + 9 \space \space mod(10) = 4$$
+$$x\{8} = x\{5} + x\_{3} \space \space mod(10) = 5 + 9 \space \space mod(10) = 4$$
 
 and so on.
 
@@ -357,4 +357,4 @@ As you may imagine, the world of PRNGs is quite vast and complex and has applica
 
 Thanks for reading.
 
-For any question or suggestion related to what I covered in this article, please add it as a comment. For special needs, you can contact me [here](http://www.zanotp.com/contact).
+For any question or suggestion related to what I covered in this article, please add it as a comment. For special needs, you can contact me [here](http://amm.zanotp.com/contact).
