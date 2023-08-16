@@ -407,4 +407,4 @@ And that's it for this article.
 
 Thanks for reading.
 
-For any question or suggestion related to what I covered in this article, please add it as a comment. For special needs, you can contact me [**here**](http://www.zanotp.com/contact).
+For any question or suggestion related to what I covered in this article, please add it as a comment. For special needs, you can contact me [**here**](http://amm.zanotp.com/contact).
