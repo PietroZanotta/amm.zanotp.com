@@ -20,7 +20,7 @@ In this post, I will talk about **simulated annealing**, which is a well-known a
 
 Simulated annealing is an iterative method for solving unconstrained and bound-constrained optimization problems. The algorithm borrows inspiration from the physical process of heating a material and then slowly lowering the **temperature**.
 
-At each iteration of the simulated annealing algorithm, a new point \\(x_i\\) is randomly generated (if you don't know how computers deal with randomicity, see [this article](https://www.zanotp.com/an-introduction-to-prngs-with-python-and-r)). As we'll see in a minute, the distance of the new point \\(x\_i\\) from the current point \\(x\_{i-1}\\) is proportional to the temperature and based on a certain probability distribution. The algorithm accepts all new points \\(x_i \\) such that \\(f(x\_i) \leq f(x\_{i-1})\\) where \\(f\\) is the objective function (i.e. the function to be minimized), but also \\(x_i \\) such that \\(f(x\_i) \geq f(x\_{i-1})\\), with a **certain probability**. This property is significant and it prevents the algorithm from being trapped in *local minima*.
+At each iteration of the simulated annealing algorithm, a new point \\(x_i\\) is randomly generated (if you don't know how computers deal with randomicity, see [this article](https://amm.zanotp.com/an-introduction-to-prngs-with-python-and-r)). As we'll see in a minute, the distance of the new point \\(x\_i\\) from the current point \\(x\_{i-1}\\) is proportional to the temperature and based on a certain probability distribution. The algorithm accepts all new points \\(x_i \\) such that \\(f(x\_i) \leq f(x\_{i-1})\\) where \\(f\\) is the objective function (i.e. the function to be minimized), but also \\(x_i \\) such that \\(f(x\_i) \geq f(x\_{i-1})\\), with a **certain probability**. This property is significant and it prevents the algorithm from being trapped in *local minima*.
 
 ### Simulated annealing with Python
 
@@ -269,4 +269,4 @@ And that's it for this article.
 
 Thanks for reading.
 
-For any question or suggestion related to what I covered in this article, please add it as a comment. For special needs, you can contact me [**here**](http://www.zanotp.com/contact).
+For any question or suggestion related to what I covered in this article, please add it as a comment. For special needs, you can contact me [**here**](http://amm.zanotp.com/contact).
