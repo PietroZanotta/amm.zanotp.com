@@ -79,8 +79,8 @@ To make the frontend robust and fast we chose React and tReact-router to manage 
     
     To contact Pietro please write to pietro.zanotta.02@gmail.com
     
-
-**Prakhar (FullStack Blockend Developer):** Prakhar is an electronics engineer by degree but a fullstack self-taught developer by passion! Having worked with 2 startups as a frontend engineer as well as backend engineer has experience in contributing and writing production level software. Recently started dabbling with web3 and his new goal is to work as a fullstack blockend developer and start contributing more!
+2. **Prakhar (FullStack Blockend Developer):** Prakhar is an electronics engineer by degree but a fullstack self-taught developer by passion! Having worked with 2 startups as a frontend engineer as well as backend engineer has experience in contributing and writing production level software. Recently started dabbling with web3 and his new goal is to work as a fullstack blockend developer and start contributing more!
+    
 
 To contact Prakhar please write to j4web.24@gmail.com
 
