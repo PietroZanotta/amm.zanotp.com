@@ -71,7 +71,7 @@ In the unfortunate event that a creator is unable to fulfill a fan's NFT request
 
 The smart contracts powering StarConnect are built using the [Foundry framework](https://book.getfoundry.sh/), as its compilation speed and native fuzzing capabilities make it the best choice for creating a secure and developer-friendly environment.
 
-To make the frontend robust and fast we chose React and tReact-router to manage the routes of the pages. Node.js was used as a backend runtime for JavaScript, and we took advantage of etherjs to connect the frontend and blockend. Last, Speheron was used for the Deployment of the dApp.
+To make the frontend robust and fast we chose React and React-router to manage the routes of the pages. Node.js was used as a backend runtime for JavaScript, and we took advantage of etherjs to connect the frontend and blockend. Last, Speheron was used for the Deployment of the dApp.
 
 ## **Meet the StarConnect Team:**
 
