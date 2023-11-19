@@ -2,7 +2,7 @@
 title: "Numerical methods for ODEs"
 seoTitle: "Numerical methods for ODE"
 seoDescription: "Finding solutions to ODEs is not always an easy task. In this article we dive cover Euler method, Second-Order Runge-Kutta, Fourth-Order Runge-Kutta"
-datePublished: Thu Aug 17 2023 11:57:53 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Jul 17 2023 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cllf3xl1d000t0akzhvj20hdx
 slug: odes
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pv5SUbgRRIU/upload/6f10c166f8816bc01dae545fe9906cd2.jpeg
@@ -20,13 +20,13 @@ where \\(k \in R\\).
 
 The solutions of the above equation are the functions whose derivatives are proportional to a constant factor (\\(k\\)) of the original function.
 
-Bringing back some calculus, consider the function \\(y = e^{kx} + c\\), where \\(c\\) is a real constant: the derivative of \\(y\\) with respect to \\(x\\) is \\(\frac{dy}{dx} = ky\\). Consequently, the family of solutions is represented by the expression \\(y = e^{kx} + c\\).
+Bringing back some calculus, consider the function \\(y = ce^{kx}\\), where \\(c\\) is a real constant: the derivative of \\(y\\) with respect to \\(x\\) is \\(\frac{dy}{dx} = ky\\). Consequently, the family of solutions is represented by the expression \\(y = ce^{kx}\\), where q is a real number.
 
 It is common to add an initial condition that gives the value of the unknown function at a particular point in the domain. For example:
 
-$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=ky\\ y(0)=2 \end{cases} \end{equation}$$
+$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=2y\\ y(0)=2 \end{cases} \end{equation}$$
 
-It is straightforward to prove that the solution of the above system is \\(y = e^{kx} + 1\\).
+It is straightforward to prove that the solution of the above system is \\(y = ce^{2x}\\).
 
 Unfortunately, not every ODE can be directly solved explicitly, so numerical methods come to the rescue by providing an approximation to the solution.
 
@@ -72,7 +72,7 @@ Using the above equation, we can now compute \\(y(x_n)\\) \\(\forall \space x_n\
 and so on.  
 We now want to approximate the solution of the initial system
 
-$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=ky\\ y(0)=2 \end{cases} \end{equation}$$
+$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=2y\\ y(0)=2 \end{cases} \end{equation}$$
 
 and visualize the exact solution and the approximation
 
@@ -165,7 +165,7 @@ and so on.
 
 Again, we want to approximate the solution of the initial system
 
-$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=ky\\ y(0)=2 \end{cases} \end{equation}$$
+$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=2y\\ y(0)=2 \end{cases} \end{equation}$$
 
 ```solidity
 import numpy as np
@@ -220,7 +220,7 @@ $$s_4 = f(x_n+h, y_n+h{s_3})$$
 
 The steps used to approximate the system
 
-$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=ky\\ y(0)=2 \end{cases} \end{equation}$$
+$$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=2y\\ y(0)=2 \end{cases} \end{equation}$$
 
 are specular to the ones used in the Runge-Kutta method of order 2.
 
