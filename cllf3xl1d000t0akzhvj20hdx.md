@@ -26,7 +26,7 @@ It is common to add an initial condition that gives the value of the unknown fun
 
 $$\begin{equation} \begin{cases} \frac{\delta y}{\delta x}=2y\\ y(0)=2 \end{cases} \end{equation}$$
 
-It is straightforward to prove that the solution of the above system is \\(y = ce^{2x}\\).
+It is straightforward to prove that the solution of the above system is \\(y = 2e^{2x}\\).
 
 Unfortunately, not every ODE can be directly solved explicitly, so numerical methods come to the rescue by providing an approximation to the solution.
 
