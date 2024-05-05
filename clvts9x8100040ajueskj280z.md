@@ -3,7 +3,7 @@ title: "Physics informed neural networks (PINNs) for Partial Differential Equati
 datePublished: Sun May 05 2024 17:05:09 GMT+0000 (Coordinated Universal Time)
 cuid: clvts9x8100040ajueskj280z
 slug: pinn
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/vo-M6JACr-k/upload/88c1ad2c71ed14a34acba032168a0e7c.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714929260771/d10709e1-2ad7-4491-829c-225e81406872.jpeg
 tags: neural-networks, physics-informed-neural-network, pde
 
 ---
