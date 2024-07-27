@@ -1,5 +1,5 @@
 ---
-title: "Physics informed neural networks (PINNs) for Partial Differential Equations (PDEs)"
+title: "Physics informed neural networks for solving Partial Differential Equations"
 datePublished: Sun May 05 2024 17:05:09 GMT+0000 (Coordinated Universal Time)
 cuid: clvts9x8100040ajueskj280z
 slug: pinn
