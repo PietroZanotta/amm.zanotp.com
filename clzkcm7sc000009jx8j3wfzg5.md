@@ -126,7 +126,7 @@ The problem QBMs is exactly the same as BMs: finding the biases and weights para
 
 [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723062369067/cca73e6d-f9a1-4409-9e87-575e8eb5bab3.png align="center")](https://arxiv.org/pdf/1601.02036)
 
-### Quanrum architectures
+### Quantum architecture
 
 As for classical Boltzmann Machines, our treatment of QBMs starts from the energy function:
 
